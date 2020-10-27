@@ -1,229 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+    <head>
+        <title>Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Home Page: Welcome</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- Main CSS styles file -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300.700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
-
-  </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-    <!-- Navbar container -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="./images/logo.jpeg"></a>
-            </div>
-           
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav nav-pills navbar-nav navbar-right">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#aboutus">ABOUT US</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#robotics">ROBOTICS AND AI</a></li>
-                    <li><a href="#contact">CONTACT US</a></li>
-                </ul>
-            </div>
-
-
-
-        </div>
-    </nav>
-<!-- Jumbotron section -->
-    <div class="jumbotron text-center">
-        <div class="logo"><img src="./images/logo.jpeg"></div>
-        <h1>Robonics AI Limited</h1>
-        <p>Kenyan startup changing lives one automated solution at a time.</p>
-        <form class="form-inline">
-            <div class="input-group">
-                <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-                <div class="input-group-btn">
-                    <button type="button" class="btn btn-danger">Subscribe</button>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <body>
+        <nav class="navbar" id="top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Food, LLC</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav visible-xs">
+                        <li>
+                            <a class="menu-item" href="#Chicken">Chicken</a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#Beef">Beef</a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#Sushi">Sushi</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </form>
-    </div>
-    <br>
-
-    <!-- Container (About Section) -->
-    <div id="aboutus" class="container-fluid">
+        </nav>
+        <h1 class="main-title">Our Menu</h1>
         <div class="row">
-            <div class="col-sm-8">
-                <h2>About Us</h2>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, blanditiis!</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore obcaecati tempore 
-                    facilis quas rerum? Labore distinctio, veritatis consectetur quos sapiente minima odit, 
-                    quibusdam doloremque eos ad repellat, blanditiis recusandae dolorum!</p>
-                <button class="btn btn-default btn-lg">Get in Touch</button>
+            <div id="Chicken" class="col-lg-4 col-md-6 col-sm-12">
+                <div class="content-box">
+                    <p class="item-name">Chicken</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                        Aenean commodo ligula eget dolor. Aenean massa. 
+                        Cum sociis natoque penatibus et magnis dis parturient montes, 
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
+                        pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-signal logo"></span>
-            </div>
-        </div>
-     
-    <div class="container-fluid bg-grey">
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-globe logo"></span>
-            </div>
-            <div class="col-sm-8">
-                <h2>Our Values</h2>
-                <h4><strong>MISSION:</strong> Our mission Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Debitis, consequatur.</h4>
-                <p><strong>VISION:</strong> Our vision Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Cumque quisquam inventore accusantium ipsa ut sapiente! 
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis deserunt 
-                    totam assumenda harum architecto reprehenderit. Neque dolorum sequi voluptate illo.</p>
-            </div>
-        </div>
-    </div>
-</div>
 
-    <!-- Container (Services Section) -->
-<div id="services" class="container-fluid">
-    <h2>SERVICES</h2>
-    <h4>What we offer</h4>
-    <br>
-    <div class="row">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-off logo-small"></span>
-            <h4>ROBOTS</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-globe logo-small"></span>
-            <h4>ARTIFICIAL INTELLIGENCE</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-cloud-upload logo-small"></span>
-            <h4>MACHINE LEARNING</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-    </div>
-    <br><br>
-    <div class="row">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-plane logo-small"></span>
-            <h4>DRONE TRACKING AND SURVEY</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-calendar logo-small"></span>
-            <h4>AUTOMATED FARMING</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-wrench logo-small"></span>
-            <h4 style="color:#303030;">SMART HOME</h4>
-            <p>Lorem ipsum dolor sit amet..</p>
-        </div>
-    </div>
-</div>
-<br>
-    <!-- Robotics and AI section -->
-    <div id="robotics" class="container-fluid">
-        <h2 class="text-center">Robotics and AI</h2>
-        <h4>Check out our awesome creations</h4>
-        <div class="row text-center">
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="./images/smart1.jpg" alt="Smart home">
-                    <p><strong>Smart home</strong></p>
-                    <p>We shouldnt brag...but wow!</p>
+            <div id="Beef" class="col-lg-4 col-md-6 col-sm-12">
+                <div class="content-box">
+                    <p class="item-name">Beef</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a>
+                    </p>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="./images/farm1.jpg" alt="Seamless AI in farming">
-                    <p><strong>Seamless AI in farming</strong></p>
-                    <p>Our busy schedules should not hinder us from farming.</p>
+            <div id="Sushi" class="col-lg-4 col-md-12 col-sm-12">
+                <div class="content-box">
+                    <p class="item-name">Sushi</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a>
+                    </p>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="./images/Drone.png" alt="Drone">
-                    <p><strong>Drones and unmanned aerial devices</strong></p>
-                    <p>Aerial footage of the highest quality for both the hobbyist and professional.</p><br>
-                </div>
-            </div>
-        </div> 
+        </div>
 
-            <!-- Contact section -->
-        <div id="contact" class="container-fluid">
-            <h2 class="text-center">CONTACT US</h2>
-            <div class="row">
-                <div class="col-sm-5">
-                    <p>Contact us and we will get back to you within 24 hours.</p>
-                    <p><span class="glyphicon glyphicon-map-marker"></span> Kenya, KE</p>
-                    <p><span class="glyphicon glyphicon-phone"></span> +254 736844590</p>
-                    <p><span class="glyphicon glyphicon-envelope"></span> email@robonics.com</p>
-                </div>
-                <div class="col-sm-7">
-                    <div class="row">
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                        </div>
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                        </div>
-                    </div>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-                    <div class="row">
-                        <div class="col-sm-12 form-group">
-                            <button class="btn btn-default pull-right" type="submit">Send</button>
-                        </div>
-                    </div>
-
-                    <!-- Map -->
-<div class="map col-md-4 col-sm-12 col-xs-12">
+<!-- Map -->
+<div class="map col-lg-12 col-md-4 col-sm-12 col-xs-12">
     <a href="https://goo.gl/maps/8CvdMhC26HNGeSo5A" target="_blank">
         <div id="map-tile">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675246405346!2d-76.71387678467657!3d39.363590279501466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1sen!2ske!4v1603706425232!5m2!1sen!2ske"
                 width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
-            <span>Robonics Ltd Head office</span>
-                </div>
-            </div>    
+            <span>Food LLC Head office</span>
         </div>
-        </div>
+</div>
 
+        </div>
+        </div>
+        
         <!-- Footer -->
         <footer class="container-fluid text-center footer">
-            <a href="#myPage" title="To Top">
+            <a href="#top" title="Back to the top">
                 <span class="glyphicon glyphicon-chevron-up"></span>
             </a>
-            <p>Robonics is a registered company. All the property showcased on this website is subject to Trademark and copyright protection <a href="https://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf" title="World Intellectual Property Institute">www.wipo.int</a></p>
+            <p>Food LLC is a registered company. All the items showcased on this website is subject to Trademark and
+                copyright protection <a href="https://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf"
+                    title="World Intellectual Property Institute">www.wipo.int</a></p>
         </footer>
 
-</body>
-
-<!-- jQuery (Bootstrap JS plugins depend on it) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!-- Include custom script -->
-<script src="js/script.js"></script>
-
+    </body>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Include custom script -->
+    <script src="js/script.js"></script>
 </html>
