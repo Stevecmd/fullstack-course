@@ -1,0 +1,100 @@
+/* Styling the navbar */
+.navbar {
+  margin-bottom: 0;
+  background-color: #0794E5;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #0744E5 !important;
+  background-color: #fff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+
+.navbar-nav li a:hover, .navbar-nav ul.active a {
+  color: #0744E5 !important;
+  background-color: #B6B6B6 !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.navbar-brand img{
+        padding-top: -5em;
+        width: 7rem;
+        height: 7rem;
+        a:hover: none;
+}
+
+/* Styling the jumbotron */
+.jumbotron {
+  background-color: #0794E5; /* Orange */
+  color: #ffffff;
+}
+
+/* Adding padding to the jumbotron */
+.container-fluid {
+  padding: 60px 50px;
+}
+
+/* Styling the subscribe button */
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+/* Styling the icons */
+.logo {
+  font-size: 200px;
+}
+
+/* Add a blue color to all icons and set the font-size */
+.logo-small {
+  color: #0794E5;
+  font-size: 50px;
+}
+
+.logo {
+  color: #0794E5;
+  font-size: 200px;
+}
+
+.container-fluid img{
+    width: 160px;
+    max-height: 160px;
+}
+
+/* Styling the images/thumbnails */
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+#robotics h4{
+    text-align: center;
+}
+
+/* Styling the footer */
+.footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #DBDBDB;
+    border-top: 0;
+}
+
